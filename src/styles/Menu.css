@@ -1,0 +1,138 @@
+.con{
+    background: black;
+    padding: 20px;
+    /* width: fit-content */
+}
+.Menu-Nav{
+    background: black;
+    padding: 20px 0 20px 0;
+    font-size: 30px;
+}
+.Menu-nav-item{
+    color: white;
+    padding: 20px;
+    font-size: 35px;
+    font-weight: 900;
+
+}
+.Menu-nav-item:hover{
+    color: orange
+}
+.clearfix{
+    padding: 0 40px 0 40px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+
+}
+.cardBox{
+    float: left;
+    width: 31.33%;
+    /* height: 450px; */
+    margin: 1%;
+    padding: 30px;
+    position: relative;
+    /* background: olivedrab; */
+}
+.MimgCard{
+    width: 100%;
+    height: 250px;
+}
+.menu-price{
+    color: orange;
+    text-transform: uppercase;
+    font-size: 30px;
+    height: 70px;
+    font-weight: 900;
+    text-align: center;
+}
+.MP{
+    background: orange;
+    color: black;
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    border-radius: 50px;
+
+}
+.MP:hover{
+    background: white;
+    color: black;
+    height: 100%;
+
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+  
+.cardBox:hover .MimgCard {
+    opacity: 0.3;
+}
+  
+.cardBox:hover .middle {
+    opacity: 1;
+}
+  
+/* .text {
+    width: 150px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+} */
+
+.text{
+    width: 200px;
+    color: white;
+    
+}
+
+@media only screen and (max-width: 890px) {
+    .cardBox{
+        width: 48%;
+        margin: 1%;
+        padding: 10px;
+        margin-bottom: 50px;
+    }
+    .MimgCard{
+        width: 100%;
+        /* height: 350px; */
+    }
+    .Menu-nav-item{
+        padding: 10px;
+        font-size: 30px;
+        font-weight: 900;
+    } 
+}
+@media only screen and (max-width: 767px) {
+    .cardBox{
+        width: 100%
+    }
+    .menu-price{
+        padding: 15px;
+    }
+}
+@media only screen and (max-width: 420px) {
+    .menu-price{
+        padding: 0px;
+        font-size: 25px;
+        height: 40px;
+
+    }
+}
+@media only screen and (max-width: 320px) {
+    .clearfix{
+        padding: 0;
+        margin: 0;
+    }
+}

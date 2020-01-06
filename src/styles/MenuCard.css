@@ -1,0 +1,64 @@
+.containerMenuCard{
+    background: black; 
+}
+.menuCard{
+    height: 300px;
+    text-align: center;
+    padding: 50px;
+    background: none; 
+
+}
+.d2{
+    width: 25%;
+    /* float: left; */
+}
+/**/
+.ulu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.ili{
+    float: left;
+
+}
+.ili .imgi{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 300px
+
+}
+
+
+/**/
+
+
+
+.mcard{
+    padding: 10px
+}
+.menuName{
+    color: white;
+    font-weight: 800;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.imgCard{
+    height: 190px;
+    width: 250px;
+    margin: auto;
+    display: block;
+}
+@media only screen and (max-width: 767px) {
+    .menuCard{
+        width: 100%;
+    }
+    
+}

@@ -1,0 +1,78 @@
+.MDcontainer{
+    background: black;
+    padding: 20px;
+}
+.MDclearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.MDimg{
+    /* background: orange; */
+    padding: 20px;
+    width: 50%;
+    float: left;
+}
+.MDdetail{
+    float: left;
+    text-align: center;
+    width: 50%;
+    color: white;
+    /* background: rebeccapurple; */
+}
+.MDname{
+    padding: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 45px;
+}
+.MDprice{
+    font-weight: 900;
+    font-size: 30px;
+}
+.MDqty-box{
+    background: none;
+    margin: auto;
+    padding: 5px;
+    /* border: 2px dashed black; */
+}
+.MDqty-text{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 25px;
+    /* padding: 6.5px; */
+}
+.MDnum-box{
+    margin-bottom: 20px;
+}
+.MDqty{
+    width: 40px;
+    outline: none;
+    background: black;
+    border: none;
+    color: white;
+    font-weight: 900;
+    font-size: 25px;
+    text-align: center;
+
+}
+.MDqty-val{
+    background: orange;
+}
+.inputQty::-webkit-outer-spin-button,
+.inputQty::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.MDqty::placeholder{
+    color: white;
+}
+.MDbtn{
+    width: 50%;
+}
+@media only screen and (max-width: 767px) {
+    .MDimg, .MDdetail{
+        width: 100%;
+    }
+    
+}

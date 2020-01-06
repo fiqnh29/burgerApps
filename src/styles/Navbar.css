@@ -1,0 +1,50 @@
+.navbar{
+    background-color: #000000;
+    min-height: 80px;
+}
+
+.Ditem{
+    text-align: center;
+    padding: 5px;
+
+}
+.Ditem2{
+    border-bottom: 1px dashed black
+}
+.Ditem:hover{
+    background: orange;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 9px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+/* .navbar-brand{
+    width: 251px;
+} */
+.nav-logo{
+    justify-content: center;
+    margin: auto;
+    width: 100px;
+    /* width: 251px; */
+    /* margin: 0 92px 0 92px; */
+}
+.navbar-nav{
+    text-align: center
+}
+.nav-item{
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+
+@media only screen and (max-width: 767px) {
+    .NavbarNavItem:hover{
+        background: orange;
+    }
+}
+/* @media only screen and (max-width: 767px) {
+    .nav-logo{
+        height: 34px;
+        width: 200px;
+    }
+} */

@@ -1,0 +1,173 @@
+.UPL-container{
+    background: black;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: 20px;
+}
+.UPL-title{
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: white
+}
+.UPL-clearfix{
+    /* background: pink; */
+    width: 100%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.UPL-clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+
+}
+.UPL-cardBox{
+    /* background: rebeccapurple; */
+    float: left;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+.UPL-pic-con{
+    width: 20%;
+    float: left;
+    /* background: darkcyan; */
+    text-align: center;
+    /* border: 1px solid orange; */
+    padding: 10px;
+}
+.UPL-picture{
+    border-radius: 50%;
+    padding: 10px;
+    width: 100%;
+    border: orange dashed 2px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+.UPL-a{
+    background: orange;
+    float: left;
+    width: 30%;
+    color: black;
+    font-weight: 500;
+    padding: 5px;
+    text-align: left;
+}
+.UPL-b{
+    background: orange;
+    float: left;
+    width: 70%;
+    padding: 5px;
+    font-weight: 500;
+    text-align: left;
+
+}
+.UPlog-btn{
+    width: 40%;
+}
+
+@media only screen and (max-width: 860px) {
+    .UPL-pic-con{
+        width: 100%;
+        padding: 10px;
+    }
+    .UPL-picture{
+        padding: 10px;
+        width: 150px;
+    }
+    .UPL-cardBox{
+        width: 100%;
+        padding: 20px;
+    }
+    
+}
+@media only screen and (max-width: 550px) {
+    .UPlog-btn{
+        width: 80%;
+    }
+    
+}
+
+/* not login */
+.UPnotlog-con{
+    background: black;
+}
+.UPcontainer{
+    /* background: black; */
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+.UPcon-img{
+    text-align: center;
+    padding: 50px;
+
+}
+.UPimg{
+    width: 150px;
+    border-radius: 50%;
+    border: 2px dashed orange;
+}
+.UPcon-txt{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.UPtxt{
+    text-align: center;
+    font-weight: 900;
+    padding: 20px;
+    color: orange;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 35px;
+}
+.UPnotlog-btn{
+    width: 30%;
+}
+@media only screen and (max-width: 650px) {
+    .UPtxt{
+        padding: 10px;
+        width: 100%;
+        margin: auto;
+    }
+    .UPnotlog-btn{
+        width: 100%;
+    }
+    
+}
+@media only screen and (max-width: 450px) {
+    .UPcontainer{
+        /* background: black; */
+        width: 90%;
+        margin: auto;
+        padding: 10px;
+        height: 700px;
+    }
+    .UPtxt{
+        padding: 0px;
+        width: 100%;
+        margin: auto;
+        font-weight: 500;
+        font-size: 30px;
+        margin-bottom: 30px
+    }
+    .UPnotlog-btn{
+        width: 90%;
+    }
+    .UPcon-img{
+        text-align: center;
+        padding: 20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+
+    }
+    .UPimg{
+        width: 150px;
+
+    }
+    
+}

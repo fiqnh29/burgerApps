@@ -1,0 +1,337 @@
+{
+  "Users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "email": "admin@gmail.com",
+      "password": "admin",
+      "role": "admin",
+      "picture": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
+      "cart": [],
+      "checkout": []
+    },
+    {
+      "id": 2,
+      "username": "lian",
+      "email": "lian@gmail.com",
+      "password": "asd",
+      "role": "user",
+      "picture": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
+      "cart": [],
+      "checkout": []
+    }
+  ],
+  "Classic": [
+    {
+      "id": 1,
+      "name": "Big Burger",
+      "price": 10000,
+      "image": "https://dqzrr9k4bjpzk.cloudfront.net/images/16218796/990337061.jpg",
+      "booked": []
+    },
+    {
+      "id": 2,
+      "name": "Mexican Burger",
+      "price": 20000,
+      "image": "https://dqzrr9k4bjpzk.cloudfront.net/images/16218796/990337208.jpg",
+      "booked": []
+    },
+    {
+      "id": 3,
+      "name": "Whooper Cheeseburger",
+      "price": 30000,
+      "image": "https://dqzrr9k4bjpzk.cloudfront.net/images/16218796/990337112.jpg",
+      "booked": []
+    },
+    {
+      "id": 4,
+      "name": "Bacon Burger",
+      "price": 40000,
+      "image": "https://dqzrr9k4bjpzk.cloudfront.net/images/16218796/990337103.jpg",
+      "booked": []
+    },
+    {
+      "id": 5,
+      "name": "High Chees",
+      "price": 50000,
+      "image": "https://dqzrr9k4bjpzk.cloudfront.net/images/16218796/990337223.jpg",
+      "booked": []
+    },
+    {
+      "id": 6,
+      "name": "Whooper Hamburger",
+      "price": 60000,
+      "image": "https://dqzrr9k4bjpzk.cloudfront.net/images/16218796/990337233.jpg",
+      "booked": []
+    }
+  ],
+  "Sides": [
+    {
+      "id": 1,
+      "name": "Chicken Nuggets",
+      "price": 10000,
+      "image": "https://dqzrr9k4bjpzk.cloudfront.net/images/16218796/990416260.jpg",
+      "booked": []
+    },
+    {
+      "id": 2,
+      "name": "Greek Salad",
+      "price": 20000,
+      "image": "https://dqzrr9k4bjpzk.cloudfront.net/images/16218796/990416520.jpg",
+      "booked": []
+    },
+    {
+      "id": 3,
+      "name": "Hash Browns",
+      "price": 30000,
+      "image": "https://dqzrr9k4bjpzk.cloudfront.net/images/16218796/990416579.jpg",
+      "booked": []
+    },
+    {
+      "id": 4,
+      "name": "French Fries",
+      "price": 40000,
+      "image": "https://dqzrr9k4bjpzk.cloudfront.net/images/16218796/990416270.jpg",
+      "booked": []
+    },
+    {
+      "id": 5,
+      "name": "Union Rings",
+      "price": 50000,
+      "image": "https://dqzrr9k4bjpzk.cloudfront.net/images/16218796/990416569.jpg",
+      "booked": []
+    }
+  ],
+  "Veggie": [
+    {
+      "id": 1,
+      "name": "Cream Cheese Bugel",
+      "price": 10000,
+      "image": "https://dqzrr9k4bjpzk.cloudfront.net/images/16218796/990416195.jpg",
+      "booked": []
+    },
+    {
+      "id": 2,
+      "name": "Cheeseburger Whopper",
+      "price": 20000,
+      "image": "https://dqzrr9k4bjpzk.cloudfront.net/images/16218796/991390564.jpg",
+      "booked": []
+    },
+    {
+      "id": 3,
+      "name": "Buffalo Veggie Burger",
+      "price": 30000,
+      "image": "https://dqzrr9k4bjpzk.cloudfront.net/images/16218796/990416070.jpg",
+      "booked": []
+    }
+  ],
+  "Drinks": [
+    {
+      "id": 1,
+      "name": "Strawberry Milk Shake",
+      "price": 10000,
+      "image": "https://dqzrr9k4bjpzk.cloudfront.net/images/16218796/990540515.jpg",
+      "booked": []
+    },
+    {
+      "id": 2,
+      "name": "Choco Milk Shake",
+      "price": 20000,
+      "image": "https://dqzrr9k4bjpzk.cloudfront.net/images/16218796/990540075.jpg",
+      "booked": []
+    },
+    {
+      "id": 3,
+      "name": "Coca Cola",
+      "price": 30000,
+      "image": "https://dqzrr9k4bjpzk.cloudfront.net/images/16218796/990416834.jpg",
+      "booked": []
+    }
+  ],
+  "Desert": [
+    {
+      "id": 1,
+      "name": "Pretzel",
+      "price": 10000,
+      "image": "https://dqzrr9k4bjpzk.cloudfront.net/images/16218796/990416429.jpg",
+      "booked": []
+    },
+    {
+      "id": 2,
+      "name": "Cinnamon Roll",
+      "price": 20000,
+      "image": "https://dqzrr9k4bjpzk.cloudfront.net/images/16218796/990416477.jpg",
+      "booked": []
+    },
+    {
+      "id": 3,
+      "name": "Doughnut",
+      "price": 30000,
+      "image": "https://dqzrr9k4bjpzk.cloudfront.net/images/16218796/990416584.jpg",
+      "booked": []
+    }
+  ],
+  "Menu": [
+    {
+      "id": 1,
+      "menuType": "Classic",
+      "name": "Big Burger",
+      "price": 10000,
+      "image": "https://dqzrr9k4bjpzk.cloudfront.net/images/16218796/990337061.jpg",
+      "booked": []
+    },
+    {
+      "id": 2,
+      "menuType": "Classic",
+      "name": "Mexican Burger",
+      "price": 20000,
+      "image": "https://dqzrr9k4bjpzk.cloudfront.net/images/16218796/990337208.jpg",
+      "booked": []
+    },
+    {
+      "id": 3,
+      "menuType": "Classic",
+      "name": "Whooper Cheeseburger",
+      "price": 30000,
+      "image": "https://dqzrr9k4bjpzk.cloudfront.net/images/16218796/990337112.jpg",
+      "booked": []
+    },
+    {
+      "id": 4,
+      "menuType": "Classic",
+      "name": "Bacon Burger",
+      "price": 40000,
+      "image": "https://dqzrr9k4bjpzk.cloudfront.net/images/16218796/990337103.jpg",
+      "booked": []
+    },
+    {
+      "id": 5,
+      "menuType": "Classic",
+      "name": "High Chees",
+      "price": 50000,
+      "image": "https://dqzrr9k4bjpzk.cloudfront.net/images/16218796/990337223.jpg",
+      "booked": []
+    },
+    {
+      "id": 6,
+      "menuType": "Classic",
+      "name": "Whooper Hamburger",
+      "price": 60000,
+      "image": "https://dqzrr9k4bjpzk.cloudfront.net/images/16218796/990337233.jpg",
+      "booked": []
+    },
+    {
+      "id": 7,
+      "menuType": "Sides",
+      "name": "Chicken Nuggets",
+      "price": 10000,
+      "image": "https://dqzrr9k4bjpzk.cloudfront.net/images/16218796/990416260.jpg",
+      "booked": []
+    },
+    {
+      "id": 8,
+      "menuType": "Sides",
+      "name": "Greek Salad",
+      "price": 20000,
+      "image": "https://dqzrr9k4bjpzk.cloudfront.net/images/16218796/990416520.jpg",
+      "booked": []
+    },
+    {
+      "id": 9,
+      "menuType": "Sides",
+      "name": "Hash Browns",
+      "price": 30000,
+      "image": "https://dqzrr9k4bjpzk.cloudfront.net/images/16218796/990416579.jpg",
+      "booked": []
+    },
+    {
+      "id": 10,
+      "menuType": "Sides",
+      "name": "French Fries",
+      "price": 40000,
+      "image": "https://dqzrr9k4bjpzk.cloudfront.net/images/16218796/990416270.jpg",
+      "booked": []
+    },
+    {
+      "id": 11,
+      "menuType": "Sides",
+      "name": "Union Rings",
+      "price": 50000,
+      "image": "https://dqzrr9k4bjpzk.cloudfront.net/images/16218796/990416569.jpg",
+      "booked": []
+    },
+    {
+      "id": 12,
+      "menuType": "Veggie",
+      "name": "Cream Cheese Bugel",
+      "price": 10000,
+      "image": "https://dqzrr9k4bjpzk.cloudfront.net/images/16218796/990416195.jpg",
+      "booked": []
+    },
+    {
+      "id": 13,
+      "menuType": "Veggie",
+      "name": "Cheeseburger Whopper",
+      "price": 20000,
+      "image": "https://dqzrr9k4bjpzk.cloudfront.net/images/16218796/991390564.jpg",
+      "booked": []
+    },
+    {
+      "id": 14,
+      "menuType": "Veggie",
+      "name": "Buffalo Veggie Burger",
+      "price": 30000,
+      "image": "https://dqzrr9k4bjpzk.cloudfront.net/images/16218796/990416070.jpg",
+      "booked": []
+    },
+    {
+      "id": 15,
+      "menuType": "Drinks",
+      "name": "Strawberry Milk Shake",
+      "price": 10000,
+      "image": "https://dqzrr9k4bjpzk.cloudfront.net/images/16218796/990540515.jpg",
+      "booked": []
+    },
+    {
+      "id": 16,
+      "menuType": "Drinks",
+      "name": "Choco Milk Shake",
+      "price": 20000,
+      "image": "https://dqzrr9k4bjpzk.cloudfront.net/images/16218796/990540075.jpg",
+      "booked": []
+    },
+    {
+      "id": 17,
+      "menuType": "Drinks",
+      "name": "Coca Cola",
+      "price": 30000,
+      "image": "https://dqzrr9k4bjpzk.cloudfront.net/images/16218796/990416834.jpg",
+      "booked": []
+    },
+    {
+      "id": 18,
+      "menuType": "Desert",
+      "name": "Pretzel",
+      "price": 10000,
+      "image": "https://dqzrr9k4bjpzk.cloudfront.net/images/16218796/990416429.jpg",
+      "booked": []
+    },
+    {
+      "id": 19,
+      "menuType": "Desert",
+      "name": "Cinnamon Roll",
+      "price": 20000,
+      "image": "https://dqzrr9k4bjpzk.cloudfront.net/images/16218796/990416477.jpg",
+      "booked": []
+    },
+    {
+      "id": 20,
+      "menuType": "Desert",
+      "name": "Doughnut",
+      "price": 30000,
+      "image": "https://dqzrr9k4bjpzk.cloudfront.net/images/16218796/990416584.jpg",
+      "booked": []
+    }
+  ],
+  "Transaction": []
+}
